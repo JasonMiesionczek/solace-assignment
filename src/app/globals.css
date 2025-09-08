@@ -1,3 +1,54 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    background: linear-gradient(180deg, #285E50 0%, #000000 100%);
+}
+
+.atlas-nav-wrapper {
+    grid-column-gap: 0rem;
+    grid-row-gap: 0rem;
+    background-color: #fff;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px 30px;
+    display: flex;
+    box-shadow: 0 4px 6px -4px #0000001a,0 10px 15px -3px #0000001a;
+    margin-bottom: 10px;
+}
+
+@font-face {
+    font-family: Mollie Glaston;
+    src: url(https://cdn.prod.website-files.com/632a21d0ec93a082b11988a0/632a228d46ee0a09a1c1b2a1_Mollie%20Glaston.woff2)format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+tr {
+    border-bottom: 1px solid #e5e7eb;
+}
+
+th {
+    text-align: left;
+    padding-bottom: 3px;
+    font-size: 14px;
+    color: #6b7280;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 12px 0;
+    font-size: 16px;
+    color: #374151;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
